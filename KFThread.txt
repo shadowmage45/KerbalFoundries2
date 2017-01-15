@@ -37,6 +37,8 @@ Please see the KSPWheel wiki for information regarding the features, functions, 
 
 
 Images, screenshots, examples:
+
+http://i.imgur.com/sxcQo9E.png
 (link a couple images of example craft)
 
 
