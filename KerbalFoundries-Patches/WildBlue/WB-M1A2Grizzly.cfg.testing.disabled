@@ -1,0 +1,204 @@
+@PART[WBI_M1A2Wheel]
+{
+-MODULE[ModuleWheelBase]{}
+-MODULE[ModuleWheelSuspension]{}
+-MODULE[ModuleWheelSteering]{}
+-MODULE[ModuleWheelMotor]{}
+-MODULE[ModuleWheelBrakes]{}
+-MODULE[ModuleWheelDamage]{}
+
+
+	MODULE
+	{
+		name = KSPWheelBase
+		wheelColliderName = wheelCollider
+		wheelColliderOffset = 0
+		wheelRadius = 0.4
+		wheelMass = 0.04
+		suspensionTravel = 0.3
+		maxLoadRating = 20
+		maxSpeed = 60
+		groundHeightOffset = 0
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		wheelMeshName = Wheel
+		rotationAxis = 1,0,0
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		suspensionName = suspensionTraverse
+		suspensionOffset = 0
+		suspensionAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		steeringName = trackSteering
+		maxSteeringAngle = 30
+		steeringAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelMotor
+		maxMotorTorque = 2
+		maxRPM = 1100
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		maxBrakeTorque = 3
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		wheelName = Wheel
+		bustedWheelName = BrokenWheel
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+	}
+	// MODULE
+	// {
+		// name = KSPWheelSounds
+	// }
+}
+@PART[WBI_OmniWheel]
+{
+-MODULE[ModuleWheelBase]{}
+-MODULE[ModuleWheelSuspension]{}
+-MODULE[ModuleWheelSteering]{}
+-MODULE[ModuleWheelMotor]{}
+-MODULE[ModuleWheelBrakes]{}
+-MODULE[ModuleWheelDamage]{}
+
+
+	MODULE
+	{
+		name = KSPWheelBase
+		wheelColliderName = wheelCollider
+		wheelColliderOffset = 0
+		wheelRadius = 0.285
+		wheelMass = 0.25
+		suspensionTravel = 0.2
+		maxLoadRating = 9
+		maxSpeed = 42
+		groundHeightOffset = 0
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		wheelMeshName = WheelRotation
+		rotationAxis = 1,0,0
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		suspensionName = suspensionTraverse
+		suspensionOffset = 0
+		suspensionAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		steeringName = trackSteering
+		maxSteeringAngle = 30
+		steeringAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelMotor
+		maxMotorTorque = 2
+		maxRPM = 1100
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		maxBrakeTorque = 3
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		wheelName = Wheel
+		bustedWheelName = BrokenWheel
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+	}
+	// MODULE
+	// {
+		// name = KSPWheelSounds
+	// }
+}
+@PART[WBI_M1A0Wheel]
+{
+-MODULE[ModuleWheelBase]{}
+-MODULE[ModuleWheelSuspension]{}
+-MODULE[ModuleWheelSteering]{}
+-MODULE[ModuleWheelMotor]{}
+-MODULE[ModuleWheelBrakes]{}
+-MODULE[ModuleWheelDamage]{}
+
+
+	MODULE
+	{
+		name = KSPWheelBase
+		wheelColliderName = wheelCollider
+		wheelColliderOffset = 0
+		wheelRadius = 0.222
+		wheelMass = 0.1
+		suspensionTravel = 0.2
+		maxLoadRating = 5.6
+		maxSpeed = 11
+		groundHeightOffset = 0
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		wheelMeshName = WheelRotation
+		rotationAxis = 1,0,0
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		suspensionName = suspensionTraverse
+		suspensionOffset = 0
+		suspensionAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		steeringName = trackSteering
+		maxSteeringAngle = 30
+		steeringAxis = 0, 1, 0
+	}
+	MODULE
+	{
+		name = KSPWheelMotor
+		maxMotorTorque = 2
+		maxRPM = 1100
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		maxBrakeTorque = 3
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		wheelName = Wheel
+		bustedWheelName = BrokenWheel
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+	}
+	// MODULE
+	// {
+		// name = KSPWheelSounds
+	// }
+}
