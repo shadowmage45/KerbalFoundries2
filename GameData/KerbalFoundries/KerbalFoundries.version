@@ -1,14 +1,14 @@
 {
 	"NAME":"Kerbal Foundries",
 	"URL":"http://ksp-avc.cybutek.net/version.php?id=430",
-	"DOWNLOAD":"https://github.com/shadowmage45/KerbalFoundries2/releases/tag/2.2.5.15",
-	"CHANGE_LOG_URL":"https://github.com/shadowmage45/KerbalFoundries2/releases/tag/2.2.5.15",
+	"DOWNLOAD":"https://github.com/shadowmage45/KerbalFoundries2/releases/tag/2.2.6.16",
+	"CHANGE_LOG_URL":"https://github.com/shadowmage45/KerbalFoundries2/releases/tag/2.2.6.16",
 	"VERSION":
 	{
 		"MAJOR":2,
 		"MINOR":2,
-		"PATCH":5,
-		"BUILD":15
+		"PATCH":6,
+		"BUILD":16
 	},
 	"KSP_VERSION":
 	{
