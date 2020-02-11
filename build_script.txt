@@ -1,0 +1,13 @@
+//TexturesUnlimited build script
+//read by SSTUBuildTools.exe
+//currently only supported options are MS-DOS Command-Line options (CMD:) and Zip operations (ZIP:{})
+versionFile = GameData/KerbalFoundries/KerbalFoundries.version
+//simply zip it up and export it to the parent directory
+ZIP:KerbalFoundries-%version%.zip
+{
+    +d GameData:GameData
+	//TODO -- add source dirs for other plugins?
+	//TODO -- add installation instructions
+	//+f Build/Installation_Instructions.txt:Installation_Instructions.txt
+}
+CMD:move /y *.zip ..
