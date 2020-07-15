@@ -1,40 +1,37 @@
 PART
 {
-	
-name = KF-LegNew
-module = Part
-author = Models-textures - TiktaalikDreaming -- Configs-etc - Shadowmage
+	name = KF-LegNew
+	module = Part
+	author = Models-textures - TiktaalikDreaming -- Configs-etc - Shadowmage
 
-MODEL
-{
-	model = KerbalFoundries/Assets/KF-LegNew
-}
-rescaleFactor = 1
+	MODEL
+	{
+		model = KerbalFoundries/Assets/KF-LegNew
+	}
+	rescaleFactor = 1
 
-node_stack_001 = 0, 0.25, 0, 1.0, 0.0, 0.0, 2
-node_attach = 0, 0.25, 0, 1.0, 0.0, 0.0
+	node_stack_001 = 0, 0.25, 0, 1.0, 0.0, 0.0, 2
+	node_attach = 0, 0.25, 0, 1.0, 0.0, 0.0
 
-TechRequired = advancedMotors
-entryCost = 6000
-cost = 800
-category = Ground
-subcategory = 0
-title = KF Folding Hydralic Leg
-manufacturer = Kerbal Foundries
-description = Repurposed from the construction equipment that was used to originally build the KSC, this general purpose industrial hydraulic leg can fill a wide range of uses when clearance and stability are needed.
+	TechRequired = advancedMotors
+	entryCost = 6000
+	cost = 800
+	category = Ground
+	subcategory = 0
+	title = KF Folding Hydralic Leg
+	manufacturer = Kerbal Foundries
+	description = Repurposed from the construction equipment that was used to originally build the KSC, this general purpose industrial hydraulic leg can fill a wide range of uses when clearance and stability are needed.
 
-attachRules = 1,1,0,1,0
+	attachRules = 1,1,0,1,0
 
-mass = 0.5
-dragModelType = default
-maximum_drag = 0.3
-minimum_drag = 0.2
-angularDrag = 1
-maxTemp = 2400 
+	mass = 0.5
+	dragModelType = default
+	maximum_drag = 0.3
+	minimum_drag = 0.2
+	angularDrag = 1
+	maxTemp = 2400 
 
-crashTolerance = 100
-breakingForce = 500
-breakingTorque = 500
-
-
+	crashTolerance = 100
+	breakingForce = 500
+	breakingTorque = 500
 }
